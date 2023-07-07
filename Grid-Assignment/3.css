@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styling the footer section */
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:   #2b1e16;
+}
+.sub-section{
+    margin: 15px 50px;
+    text-align: center;
+}
+.sub-section img{
+    width: 150px;
+}
+.sub-section h1 {
+    color: white;
+}
+.sub-section p {
+    color:  #8c6e54;;
+}
+.sub-section #heading {
+    margin-top: 26px;
+}
+/* how i am styling the navbar portion */
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav img {
+    width: 60px;
+}
+nav a{
+    padding-right: 60px;
+    text-decoration: none;
+    color:  #000;
+    
+}
+nav a:hover {
+    color: red;
+    font-weight: bold;
+}
+nav button{
+    margin-left: 60%;
+    color: white;
+    background-color: #4681f4;
+    padding: 10px 50px;
+    border:0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* now i am styling the container section */
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+     grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    gap: 25px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-section{
+    padding: 0px 50px;
+}
+.image-section{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.image-section img {
+    width: 70%;
+    height: 100%;
+}
+.text-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text-section p {
+    color: grey;
+}
+.text-section button {
+    padding: 10px 45px;
+    border: 0;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    font-size: large;
+}
